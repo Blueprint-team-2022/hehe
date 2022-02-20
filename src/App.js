@@ -10,10 +10,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<MainPage/>} />
-        <Route path="/music" element={<MusicPage/>} />
-        <Route path="/meditation" element={<MeditationPage/>} />
-        <Route path="/scenery" element={<SceneryPage/>} />
-        <Route path="/diary" element={<DiaryPage/>} />
+        <Route exact path="/music" element={<MusicPage/>} />
+        <Route exact path="/meditation" element={<MeditationPage/>} />
+        <Route exact path="/scenery" element={<SceneryPage/>} />
+        <Route exact path="/diary" element={<DiaryPage/>} />
       </Routes>
     </BrowserRouter>
   );
